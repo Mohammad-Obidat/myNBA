@@ -1,0 +1,11 @@
+Extensions
+OOP
+If you didn’t use OOP as much as possible (at least in the client side) 
+- do so! There are at least two separate concerns here: fetching data from your server, 
+and rendering it.
+
+More Data (non-trivial)
+The resource we used for images also has some references for getting player stats.
+Figure out how that works, and add another route in your server called /playerStats/:player.
+When you click on any player’s image, it should display the player’s stats over the image.
+https://nba-players.herokuapp.com/players-stats/james/lebron
